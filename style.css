@@ -1,0 +1,135 @@
+
+
+
+QSlider::groove:horizontal#slider {
+    height: 5px;
+    margin: 0px;
+    background:red;
+    }
+QSlider::handle:horizontal#slider {
+    background-color: white;
+    border: 1px solid #330000;
+    height: 40px;
+    width: 20px;
+    margin: -15px 0px;
+}
+QSlider::groove:horizontal#volslider {
+    height: 5px;
+    margin: 0px;
+    background:white;
+    }
+QSlider::handle:horizontal#volslider {
+    background-color: red;
+    border: 1px solid #330000;
+    height: 30px;
+    width: 10px;
+    margin: -15px 0px;
+}
+QSlider::sub-page:Horizontal {
+    background-color: green;
+}
+QSlider::add-page:Horizontal {
+    background-color: red;
+}
+
+
+
+
+QLabel#playing_text {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+QPushButton {
+    outline: none;
+    outline: 0;
+}
+QPushButton#repeat_btn {
+    margin-right:15px;
+    border-radius: 10px;
+    padding:10px
+}
+QPushButton#shuf_btn {
+    margin-left:15px;
+    border-radius: 10px;
+    padding:10px
+}
+QPushButton#pause_btn,
+QPushButton#new_playlist,
+QPushButton#play_btn {
+    margin:0 20px;
+    padding: 5px;
+}
+
+
+QPushButton#play_btn::hover,
+QPushButton#pause_btn::hover,
+QPushButton#prev_btn::hover,
+QPushButton#next_btn::hover,
+QPushButton#repeat_btn::hover,
+QPushButton#shuf_btn::hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QLabel#time {
+    font-size: 12px;
+    padding:0px;
+    margin: 0px;
+    text-align: right;
+}
+
+QPushButton#playing_nav,
+QPushButton#music_list {
+    font-size: 18px;
+}
+
+QPushButton#playing_nav {
+    background-color: blue;
+    font-size: 30px;
+}
+
+QTabBar::tab:selected {
+    background: red;
+    color: black;
+    font-weight: 400;
+}
+QTabBar::tab {
+    color: rgb(206, 206, 206);
+    font-size: 15px;
+    border: none;
+    width: 120px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+QTabWidget::pane{
+    border-top: 1px solid white;
+    margin-top: 3px;
+}
+
+QVBoxLayout#now_playing_layout {
+    background-color: black;
+}
+QListWidget {
+    background-color: green;
+    outline: 0;
+    border: 0;
+}
+QListWidget:item {
+    font-size: 20pt;
+    margin: 2px 0px;
+    padding: 10px;
+}
+QListWidgetItem {
+    font-size: 20px;
+}
+QListWidget:item:selected {
+    background-color: red;
+}
+
+QScrollArea#scroll_area {
+    border: 0;
+}
